@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1685411172 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\func\func.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+	<windows.h>
+	<ctype.h>
+	<conio.h>
+	<unistd.h>
+	"../headers/services.h"
+
+1685930670 c:\users\isaia\desktop\pim iv - intalador\pim-iv\headers\services.h
+
+1685921253 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\icon.rc
+
+1685921092 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+	"headers/services.h"
+
+1685930852 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\populararquivos\populararq.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+	<windows.h>
+	<ctype.h>
+	<conio.h>
+	"../headers/services.h"
+
+1679935535 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\startup.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"headers/services.h"
+
+1685394831 source:c:\users\isaia\desktop\pim iv - intalador\pim-iv\views\tela.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+	<windows.h>
+	"../headers/services.h"
+

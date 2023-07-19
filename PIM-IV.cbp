@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SisControlCovid19" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="1" />
+		<Build>
+			<Target title="Debug">
+				<Option output="SisControlCovid19" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./*" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SisControlCovid19" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./*" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="db_files/comorbidades/comorbidades.csv" />
+		<Unit filename="db_files/grupo-de-risco/gp-risco.csv" />
+		<Unit filename="db_files/pacientes/pacientes.csv" />
+		<Unit filename="db_files/users/user.csv" />
+		<Unit filename="func/func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="headers/services.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="popularArquivos/popularArq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="startup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="views/tela.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
